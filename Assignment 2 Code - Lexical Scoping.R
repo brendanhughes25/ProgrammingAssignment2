@@ -1,4 +1,4 @@
-#The first function, makeVector creates a special "vector", which is really a list containing a function to
+#The first function, makeVector creates a special "vector", which is really a list containing a function to:
 #1. set the value of the vector
 #2. get the value of the vector
 #3. set the value of the inverse
@@ -37,10 +37,9 @@ cacheSolve <- function(x, ...) {
 B <- matrix(c(1,2,3,4),2,2)
 
 B1 <- makeCacheMatrix(B)
-#This is the inverse returned after the computation
+
 cacheSolve(B1)
 
-#This is the inverse returned from cache
 cacheSolve(B1)
 
 
